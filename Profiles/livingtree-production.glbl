@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>livingtree-production</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://engage.livingtree.com/login?brand=livingtree'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'teacheraa@mailinator.com'</initValue>
+      <name>TEACHER_EMAIL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1t5ra1n1nGT@C05!'</initValue>
+      <name>PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://engage.livingtree.com/signup-user'</initValue>
+      <name>SIGNUP_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'riyas@aithertechnology.com'</initValue>
+      <name>RIYAS_USERNAME</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

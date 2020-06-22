@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>livingtree-QA</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://maple.livingtree.com/login?brand=livingtree'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'teacheraa@mailinator.com'</initValue>
+      <name>EMAIL_TEACHER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'E@tM0r3CH1CK3n'</initValue>
+      <name>PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://maple.livingtree.com/signup-user'</initValue>
+      <name>SIGNUP_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'riyas@aithertechnology.com'</initValue>
+      <name>RIYAS_USERNAME</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

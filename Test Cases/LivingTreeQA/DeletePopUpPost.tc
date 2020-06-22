@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DeletePopUpPost</name>
+   <tag>Functionality</tag>
+   <comment></comment>
+   <testCaseGuid>0a97f71d-34d1-4288-b49d-a2dce8cf493d</testCaseGuid>
+</TestCaseEntity>
