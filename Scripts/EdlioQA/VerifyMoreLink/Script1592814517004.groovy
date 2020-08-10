@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPageEmailAdressTextBox'), 'riyas@aithertechnology.com')
+WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPageEmailAdressTextBox'), GlobalVariable.RIYAS_USERNAME)
 
-WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), 'E@tM0r3CH1CK3n')
+WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 

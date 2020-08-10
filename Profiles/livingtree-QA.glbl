@@ -29,4 +29,39 @@
       <initValue>'riyas@aithertechnology.com'</initValue>
       <name>RIYAS_USERNAME</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Akshata273.balure273@mailinator.com'</initValue>
+      <name>EMAIL_PRINCIPLE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'studentaa@mailinator.com'</initValue>
+      <name>EMAIL_STUDENT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jclay@asdms.us'</initValue>
+      <name>EMAIL_DISTRICT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Casiscalendar@livingtree.com'</initValue>
+      <name>EMAIL_USER</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'parentsbr@mailinator.com'</initValue>
+      <name>EMAIL_PARENT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Akshata55.balure55@mailinator.com'</initValue>
+      <name>ATTENDANCE_EMAIL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'katherine.thomashel@nn.k12.va.us'</initValue>
+      <name>ADD_BANNER_ID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

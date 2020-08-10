@@ -23,7 +23,7 @@ WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
 WebUI.click(findTestObject('Edlio/ConversationPage/ConversationPagePhotosVideosLink'))
 
-WebUI.verifyElementVisible(findTestObject('Edlio/EdlioGifLoader'))
+WebUI.verifyElementVisible(findTestObject('Edlio/CreatePostPage/EdlioGifLoader'))
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

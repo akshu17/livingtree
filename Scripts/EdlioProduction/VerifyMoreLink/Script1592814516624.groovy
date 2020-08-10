@@ -15,17 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPageEmailAdressTextBox'), 'riyas@aithertechnology.com')
+WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPageEmailAdressTextBox'), GlobalVariable.RIYAS_USERNAME)
 
-WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), '1t5ra1n1nGT@C05!')
+WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
-WebUI.verifyElementVisible(findTestObject('Edlio/ConversationPage/ConversationPageMoreLink'))
+WebUI.waitForElementPresent(findTestObject('Edlio/ConversationPage/ConversationPageMoreLink'), 0)
 
 WebUI.click(findTestObject('Edlio/MyNetworkPage/MyNetworkIcon'))
 
-WebUI.verifyElementVisible(findTestObject('Edlio/MyNetworkPage/MyNetworkPageMoreLink'))
+WebUI.waitForElementPresent(findTestObject('Edlio/MyNetworkPage/MyNetworkPageMoreLink'), 1)
 
 WebUI.closeBrowser()
 

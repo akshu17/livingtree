@@ -11,8 +11,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'teacheraa@mailinator.com'</initValue>
-      <name>TEACHER_EMAIL</name>
+      <initValue>'teacher02@mailinator.com'</initValue>
+      <name>EMAIL_TEACHER</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -28,5 +28,25 @@
       <description></description>
       <initValue>'riyas@aithertechnology.com'</initValue>
       <name>RIYAS_USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'principal201@mailinator.com'</initValue>
+      <name>EMAIL_PRINCIPLE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'raunak.das@mailinator.com'</initValue>
+      <name>EMAIL_STUDENT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'deep.bglr@gmail.com'</initValue>
+      <name>EMAIL_PARENT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Akshata55.balure55@mailinator.com'</initValue>
+      <name>ATTENDANCE_EMAIL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

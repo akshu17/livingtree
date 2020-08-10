@@ -21,13 +21,9 @@ WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), G
 
 WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
-WebUI.click(findTestObject('LivingTree/ConversationPage/DeletePostIcon'))
+WebUI.click(findTestObject('LivingTree/DeletePopUpCheck/DeleteCancelButton'))
 
-WebUI.verifyElementVisible(findTestObject('LivingTree/ConversationPage/DeletePostAlertText'))
-
-WebUI.verifyElementVisible(findTestObject('LivingTree/ConversationPage/DeletePostPopUp'))
-
-WebUI.verifyElementVisible(findTestObject('LivingTree/ConversationPage/DeletePostPopUpOkButton'))
+WebUI.verifyElementVisible(findTestObject('LivingTreeProduction/ConversationPage/DeletePopUpBox'))
 
 WebUI.closeBrowser()
 

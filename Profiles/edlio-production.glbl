@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'teacherbasava@mailinator.com'</initValue>
+      <initValue>'teacher115@mailinator.com'</initValue>
       <name>EMAIL_TEACHER</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -23,5 +23,25 @@
       <description></description>
       <initValue>'https://engage.livingtree.com/signup-user?brand=edlio'</initValue>
       <name>SIGNUP_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'riyas@aithertechnology.com'</initValue>
+      <name>RIYAS_USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'principal115@chanduschools.com'</initValue>
+      <name>EMAIL_PRINCIPLE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'student1115@mailinator.com'</initValue>
+      <name>EMAIL_STUDENT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'parent1115@mailinator.com'</initValue>
+      <name>EMAIL_PARENT</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPageEmailAdressTextBox'), GlobalVariable.EMAIL_TEACHER)
+WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPageEmailAdressTextBox'), 'teacher1aa@mailinator.com')
 
 WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), GlobalVariable.PASSWORD)
 
@@ -23,11 +23,11 @@ WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
 WebUI.click(findTestObject('LivingTree/MyNetworkPage/MyNetworkPageIcon'))
 
-WebUI.click(findTestObject('LivingTree/MyNetworkPage/MyNetworkPageRymsGroup'))
+WebUI.click(findTestObject('LivingTree/MyNetworkPage/9_ALL'))
 
-WebUI.click(findTestObject('LivingTree/MyNetworkPage/MyNetworkPageAddParentButton'))
+WebUI.click(findTestObject('LivingTree/MyNetworkPage/AddParents'))
 
-WebUI.waitForElementPresent(findTestObject('LivingTree/MyNetworkPage/MyNetworkPageLoader'), 0)
+WebUI.waitForElementPresent(findTestObject('LivingTree/MyNetworkPage/LivingtreeLoaderIcon'), 0)
 
 WebUI.closeBrowser()
 

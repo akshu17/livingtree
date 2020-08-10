@@ -13,11 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://engage.livingtree.com/login?brand=edlioedfghj')
+WebUI.openBrowser(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPageEmailAdressTextBox'), 'teacherbasava@mailinator.com')
+WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPageEmailAdressTextBox'), GlobalVariable.EMAIL_TEACHER)
 
-WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), '1t5ra1n1nGT@C05!')
+WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), GlobalVariable.PASSWORD)
 
 WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 

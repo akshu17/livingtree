@@ -23,7 +23,9 @@ WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
 WebUI.click(findTestObject('LivingTree/GivePage/GivePageIcon'))
 
-WebUI.verifyElementVisible(findTestObject('LivingTree/GivePage/GivePageNoCampaignImage'))
+WebUI.click(findTestObject('LivingTree/GivePage/Aaschool'))
+
+WebUI.waitForElementVisible(findTestObject('LivingTree/GivePage/GivePageNoCampaignImage'), 1)
 
 WebUI.closeBrowser()
 
