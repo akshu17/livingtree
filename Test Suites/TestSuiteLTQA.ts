@@ -17,12 +17,6 @@
       <testCaseId>Test Cases/LivingTreeQA/AddLinkDetailInCalendar</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9ba2b6eb-f23f-4959-89a2-95bc2f8a09df</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/LivingTreeQA/AttendanceAlertCheck</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>89ac52ab-5128-4a24-88b7-b6d479c449f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -165,12 +159,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/LivingTreeQA/SendUrgentAlert</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8f304141-ddcf-45bc-ab3b-5e32d939d3a2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/LivingTreeQA/test</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>662ac43a-b4eb-4ca0-9c2e-4d1c6776a24d</guid>

@@ -29,5 +29,17 @@ WebUI.setText(findTestObject('LivingTree/PollPostStyle/CreatePostSubjectBox'), '
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('LivingTree/PollPostStyle/TextBox'), 'test')
+WebUI.click(findTestObject('LivingTree/PollPostStyle/AddPollButton'))
+
+WebUI.setText(findTestObject('LivingTree/PollPostStyle/AnswerBoxOne'), 'test')
+
+WebUI.setText(findTestObject('LivingTree/PollPostStyle/AnswerBoxTwo'), 'test')
+
+WebUI.click(findTestObject('LivingTree/PollPostStyle/IWantToShareWIth'))
+
+WebUI.click(findTestObject('LivingTree/PollPostStyle/RymsGroup'))
+
+WebUI.click(findTestObject('Page_LivingTree teacher taa/StudentsGroup'))
+
+WebUI.click(findTestObject(null))
 
