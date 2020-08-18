@@ -49,11 +49,11 @@ WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/AddEventCale
 
 WebUI.click(findTestObject('LivingTree/CalendarLink/CancelButton'))
 
-WebUI.scrollToElement(findTestObject('LivingTreeProduction/CalendarLink/Page_LivingTree Science/ScrollToTopButton'), 1)
+WebUI.scrollToElement(findTestObject('LivingTreeProduction/CalendarLink/ScrollToTopButton'), 1)
 
 WebUI.waitForElementVisible(findTestObject('LivingTree/CalendarLink/CalenderLeftSide'), 1)
 
 WebUI.click(findTestObject('LivingTreeProduction/MyNetworkPage/ScienceGroup'))
 
-WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/Page_LivingTree Science/span_Add Member'))
+WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/span_Add Member'))
 
