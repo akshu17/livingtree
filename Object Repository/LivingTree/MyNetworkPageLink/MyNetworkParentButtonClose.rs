@@ -6,12 +6,12 @@
    <elementGuidId>0fb0e2f5-8733-4e4a-9ba0-abc21dc9b4eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;invite-livingtree-popup&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;mlt-flow-panel&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close close_btn&quot;][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='invite-livingtree-popup']//button[@class='close close_btn'][contains(text(),'×')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='invite-livingtree-popup']//button[@class='close close_btn'][contains(text(),'×')][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;invite-livingtree-popup&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;mlt-flow-panel&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close close_btn&quot;]</value>
+      <value>//div[@id='invite-livingtree-popup']//button[@class='close close_btn'][contains(text(),'×')]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
