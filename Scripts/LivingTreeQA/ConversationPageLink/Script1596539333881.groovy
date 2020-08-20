@@ -133,9 +133,9 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/a_Add Adult'))
 
-WebUI.waitForElementVisible(findTestObject('Page_LivingTree teacher taa/button_Close'), 2)
+WebUI.waitForElementVisible(findTestObject('null'), 2)
 
-WebUI.click(findTestObject('Page_LivingTree teacher taa/button_Close'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 

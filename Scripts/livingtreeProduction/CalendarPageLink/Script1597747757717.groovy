@@ -49,11 +49,57 @@ WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/AddEventCale
 
 WebUI.click(findTestObject('LivingTree/CalendarLink/CancelButton'))
 
-WebUI.scrollToElement(findTestObject('LivingTreeProduction/CalendarLink/ScrollToTopButton'), 1)
-
 WebUI.waitForElementVisible(findTestObject('LivingTree/CalendarLink/CalenderLeftSide'), 1)
 
-WebUI.click(findTestObject('LivingTreeProduction/MyNetworkPage/ScienceGroup'))
+WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/ScrollToTopButton'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/span_Add Member'))
+
+WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/RymsGroupBox'), 0)
+
+WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/Page_LivingTree David Samson/InviteParent(s)usinggroupcode'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('LivingTree/CalendarLink/ParentsGroupButtonClose'))
+
+WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/span_Add Member'))
+
+WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/RymsGroupBox'), 0)
+
+WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/Page_LivingTree David Samson/a_Invite Parent(s) via e-mail'))
+
+WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/ParentInviteBox'), 0)
+
+WebUI.click(findTestObject('LivingTree/CalendarLink/InviteParentviaButtonClose'))
+
+WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/span_Add Member'))
+
+WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/RymsGroupBox'), 0)
+
+WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/Page_LivingTree David Samson/InviteParent(s)usinggroupcode'))
+
+WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/ManagegroupcodeRymsParents'), 0)
+
+WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/ParentGroupCodePage'), 0)
+
+WebUI.delay(0)
+
+WebUI.click(findTestObject('LivingTree/CalendarLink/ParentsGroupButtonClose'))
+
+WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/span_Add Member'))
+
+WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/RymsGroupBox'), 0)
+
+WebUI.click(findTestObject('LivingTreeProduction/CalendarLink/Page_LivingTree David Samson/a_Invite Student(s) via e-mail'))
+
+WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/ParentInviteBox'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('LivingTree/CalendarLink/InviteParentviaButtonClose'))
+
+WebUI.closeBrowser()
 
