@@ -21,21 +21,17 @@ WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), G
 
 WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
-WebUI.waitForElementClickable(findTestObject('LivingTree/ConversationPage/SendUegentButton'), 20)
+WebUI.delay(6)
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Edlio/ConversationPage/SendUrgentAlertEdlio'))
 
-WebUI.click(findTestObject('LivingTree/ConversationPage/SendUegentButton'))
+WebUI.delay(3)
 
-WebUI.waitForElementClickable(findTestObject('Edlio/ConversationPage/CreatePostCloseButton'), 20)
-
-WebUI.click(findTestObject('Edlio/ConversationPage/CreatePostCloseButton'))
-
-WebUI.waitForElementClickable(findTestObject('Edlio/ConversationPage/ConfigureDefaultMessageBox'), 3)
+WebUI.click(findTestObject('Edlio/ConversationPage/buttonCloseSendUrgentAlert'))
 
 WebUI.click(findTestObject('Edlio/ConversationPage/ConfigureDefaultMessageBox'))
 
-WebUI.delay(20)
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('LivingTree/ConversationPage/DefaultUrgentAlertMessageBox'), 0)
 

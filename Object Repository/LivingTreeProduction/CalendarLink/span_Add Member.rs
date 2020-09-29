@@ -6,11 +6,15 @@
    <elementGuidId>09fe14e3-9f90-45ea-8334-d80e9a94b6d7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html//li[@id='Groups']/ul/li[2]//ul[@class='elgg-list elgg-list-entity']/li//span[@class='lsb-add-member-span']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//li[@id='elgg-group-25776662']/div/div/div[2]/div[2]/a/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,18 +38,18 @@
       <value>Invite someone to join this group.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Add Member</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;elgg-group-25776662&quot;)/div[@class=&quot;elgg-image-block clearfix&quot;]/div[@class=&quot;elgg-body&quot;]/div[@class=&quot;ul-div  -- 3&quot;]/div[@class=&quot;div-right&quot;]/a[@class=&quot;left-nav-invite lsb-add-member-btn&quot;]/span[@class=&quot;lsb-add-member-span&quot;]</value>
+      <value>/html//li[@id='Groups']/ul/li[2]//ul[@class='elgg-list elgg-list-entity']/li//span[@class='lsb-add-member-span']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

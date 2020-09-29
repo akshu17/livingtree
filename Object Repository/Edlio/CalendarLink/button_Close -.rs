@@ -6,11 +6,15 @@
    <elementGuidId>55272f4e-dcf8-4b64-b338-06a738be5850</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html//div[@id='invite-livingtree-popup']//div[@id='mlt-flow-panel']/div[@class='modal-header']/button[@type='button']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[16]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +24,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -48,18 +52,18 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Close ×</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;invite-livingtree-popup&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;mlt-flow-panel&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close close_btn&quot;]</value>
+      <value>/html//div[@id='invite-livingtree-popup']//div[@id='mlt-flow-panel']/div[@class='modal-header']/button[@type='button']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

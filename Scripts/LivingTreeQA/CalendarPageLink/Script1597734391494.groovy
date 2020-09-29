@@ -81,9 +81,9 @@ WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/Managegroupc
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/ParentGroupCodePage'), 0)
 
-WebUI.delay(0)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('LivingTree/CalendarLink/ParentsGroupButtonClose'))
+WebUI.click(findTestObject('Page_LivingTree teacher taa/button_Close'))
 
 WebUI.click(findTestObject('LivingTree/CalendarLink/RymsAddMember'))
 

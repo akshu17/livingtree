@@ -23,13 +23,21 @@ WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
 WebUI.click(findTestObject('LivingTree/ConversationPage/ConversationIconCoversationPage'))
 
-WebUI.waitForElementVisible(findTestObject('Edlio/Calendar/UIEventPostBox'), 10)
+WebUI.setText(findTestObject('LivingTree/ConversationPage/ConversationPageInputSearch'), 'UI event')
 
-WebUI.waitForElementVisible(findTestObject('Edlio/Calendar/UIEventTitle'), 0)
+WebUI.click(findTestObject('LivingTree/SearchBox/SearchIcon'))
 
-WebUI.waitForElementVisible(findTestObject('Edlio/Calendar/RSVPRequiredSignUpChecks'), 0)
+WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPage/ConversationUiEventTitle'), 2)
 
 WebUI.click(findTestObject('EdlioProduction/Calendar/a_RSVP Required'))
+
+WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/UIEventPostBox'), 10)
+
+WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/UIEvenTitle'), 2)
+
+WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/RSVPRequiredSignUpCheck'), 2)
+
+WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/UIEventDetailPage'), 0)
 
 WebUI.closeBrowser()
 
@@ -42,6 +50,8 @@ WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), G
 WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
 WebUI.waitForElementVisible(findTestObject('Edlio/Calendar/StudentUIEventCheck'), 0)
+
+WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/SeeOriginal'), 0)
 
 WebUI.closeBrowser()
 

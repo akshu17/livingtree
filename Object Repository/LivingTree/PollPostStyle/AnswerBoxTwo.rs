@@ -68,6 +68,13 @@
       <type>Main</type>
       <value>id(&quot;poll_answer_2&quot;)</value>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_LivingTree teacher tsbr/Iframe</value>
+   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

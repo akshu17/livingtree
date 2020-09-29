@@ -53,21 +53,17 @@ WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/RymsButtonCancel'))
 
 WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/span_Assistants and other Administrators_hoverButton'))
 
-WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/InviteAdminButton'))
-
-WebUI.waitForElementPresent(findTestObject('LivingTree/MyNetworkPageLink/AdminInviteBox'), 0)
-
-WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/Adminbutton_Close'))
-
 WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/MyNetworkInviteParentButton'))
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/MyNetworkPageLink/MyNetworkInvitePopUpParentBox'), 1)
 
 WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/parent'))
 
-WebUI.waitForElementPresent(findTestObject('LivingTree/MyNetworkPageLink/MynetworkParentBox'), 1)
+WebUI.waitForElementPresent(findTestObject('LivingTree/MyNetworkPageLink/MynetworkParentBox'), 2)
 
-WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/MyNetworkParentButtonClose'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/Page_LivingTree teacher taa/button_Close'))
 
 WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/MyNetworkInviteStudentButton'))
 
@@ -77,5 +73,7 @@ WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/Student'))
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/MyNetworkPageLink/MyNetworkStudentBox'), 1)
 
-WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/StudentButtonClose'))
+WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/Page_LivingTree Ryms/button_Close'))
+
+WebUI.closeBrowser()
 

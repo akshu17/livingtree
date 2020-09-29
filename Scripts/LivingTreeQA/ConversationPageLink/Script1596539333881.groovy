@@ -71,11 +71,11 @@ WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/ShowAllTypeButton'), 2)
 
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/label_Users'))
+WebUI.click(findTestObject('LivingTree/ConversationPageLink/label_Users'))
 
 WebUI.waitForPageLoad(4)
 
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/button_Close1'))
+WebUI.click(findTestObject('LivingTree/ConversationPageLink/button_Close1'))
 
 WebUI.click(findTestObject('LivingTree/ConversationPageLink/LabelAll'))
 
@@ -131,38 +131,19 @@ WebUI.click(findTestObject('LivingTree/ConversationPage/DefaultUrgentAlertMessag
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/a_Add Adult'))
-
-WebUI.waitForElementVisible(findTestObject('null'), 2)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Page_LivingTree teacher taa/span_Add Member'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_LivingTree teacher taa/a_x'))
+WebUI.click(findTestObject('LivingTree/MyNetworkPageLink/MyNetworkInvitePopUpParentBox'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/ConversationDropDownOne'))
-
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/ConversationDropDownTwo'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/ConversationTodayBox'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('LivingTree/ConversationPageLink/TodayConversationBox'), 1)
 
 WebUI.waitForElementVisible(findTestObject('Edlio/ConversationPage/SocialMediaLinkAppStore'), 0)
 
 WebUI.waitForElementVisible(findTestObject('Edlio/ConversationPage/SocialMediaLinkPlayStore'), 0)
-
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/a_Add Child'))
-
-WebUI.waitForPageLoad(6)
-
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/AddChildButtonClose'))
 
 WebUI.closeBrowser()
 

@@ -23,13 +23,23 @@ WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
 WebUI.click(findTestObject('LivingTree/ConversationPage/ConversationIconCoversationPage'))
 
+WebUI.delay(3)
+
+WebUI.mouseOver(findTestObject('LivingTree/ConversationPage/ConversationSearchBox'))
+
+WebUI.setText(findTestObject('LivingTree/ConversationPage/ConversationPageInputSearch'), 'UI event')
+
+WebUI.click(findTestObject('LivingTree/SearchBox/SearchIcon'))
+
+WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPage/ConversationUiEventTitle'), 2)
+
+WebUI.click(findTestObject('LivingTreeProduction/Calendar/Page_LivingTree David Samson/RSVPRequiredButton'))
+
 WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/UIEventPostBox'), 10)
 
 WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/UIEvenTitle'), 0)
 
-WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/RSVPRequiredConversationCheck'), 0)
-
-WebUI.click(findTestObject('LivingTree/Calendar/RSVPRequiredConversationCheck'))
+WebUI.waitForElementVisible(findTestObject('LivingTreeProduction/Calendar/RSVPRequiredConversationCheck'), 0)
 
 WebUI.waitForElementPresent(findTestObject('LivingTreeProduction/Calendar/UIEventCreateEventPostBox'), 0)
 
@@ -44,6 +54,8 @@ WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), G
 WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
 WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/StudentUIEventCheck'), 0)
+
+WebUI.waitForElementVisible(findTestObject('LivingTreeProduction/ConversationPage/SeeOriginal'), 1)
 
 WebUI.closeBrowser()
 

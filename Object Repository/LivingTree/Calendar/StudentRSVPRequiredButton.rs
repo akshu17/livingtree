@@ -6,11 +6,15 @@
    <elementGuidId>cc7fb468-c91b-40a9-86f5-2cca2582aee1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html//div[@id='main-div-ajax-call']/ul[@class='elgg-list elgg-list-entity']/li[@class='elgg-item']/div[@class='post-container']//a[.='RSVP Required']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@onclick='javascript:elgg.groups.handleEventClick2(28629289,28549619)']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,18 +31,18 @@
       <value>javascript:elgg.groups.handleEventClick2(28629289,28549619)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>RSVP Required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;comment-div-28629289&quot;)/div[@class=&quot;elgg-image-block clearfix&quot;]/div[@class=&quot;elgg-body&quot;]/div[@class=&quot;elgg-content&quot;]/div[@class=&quot;post_event_rsvp_cont&quot;]/div[@class=&quot;post_event_rsvp btn btn-xs&quot;]/a[1]</value>
+      <value>/html//div[@id='main-div-ajax-call']/ul[@class='elgg-list elgg-list-entity']/li[@class='elgg-item']/div[@class='post-container']//a[.='RSVP Required']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

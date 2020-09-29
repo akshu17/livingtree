@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;invite-livingtree-popup&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;mlt-flow-panel&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close close_btn&quot;][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
+         <value>//div[@id='invite-livingtree-popup']//div[@id='mlt-flow-panel']/div[@class='modal-header']/button[@type='button']/span[@class='cls-txt hidden-xs']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -24,7 +24,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;invite-livingtree-popup&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;mlt-flow-panel&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close close_btn&quot;]</value>
+      <value>//div[@id='invite-livingtree-popup']//div[@id='mlt-flow-panel']/div[@class='modal-header']/button[@type='button']/span[@class='cls-txt hidden-xs']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

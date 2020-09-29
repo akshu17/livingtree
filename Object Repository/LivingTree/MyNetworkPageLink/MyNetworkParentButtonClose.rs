@@ -6,12 +6,12 @@
    <elementGuidId>0fb0e2f5-8733-4e4a-9ba0-abc21dc9b4eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='invite-livingtree-popup']//button[@class='close close_btn'][contains(text(),'×')]</value>
+         <key>BASIC</key>
+         <value>id(&quot;invite-livingtree-popup&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;mlt-flow-panel&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close close_btn&quot;]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@id='invite-livingtree-popup']//button[@class='close close_btn'][contains(text(),'×')][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='invite-livingtree-popup']//button[@class='close close_btn'][contains(text(),'×')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='invite-livingtree-popup']//button[@class='close close_btn'][contains(text(),'×')]</value>
+      <value>id(&quot;invite-livingtree-popup&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;mlt-flow-panel&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close close_btn&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,11 +6,15 @@
    <elementGuidId>882776f9-0c1a-44f6-ae70-2792548f7263</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;modalDashboardUserFilter&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close close_btn&quot;][count(. | //*[@type = 'button' and (text() = 'Close ×' or . = 'Close ×')]) = count(//*[@type = 'button' and (text() = 'Close ×' or . = 'Close ×')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[7]</value>
+         <value>//div[@id='invite-livingtree-popup']//span[@class='cls-txt hidden-xs'][contains(text(),'Close')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <value>Close ×</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

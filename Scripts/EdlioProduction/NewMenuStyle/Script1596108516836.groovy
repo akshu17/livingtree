@@ -23,7 +23,7 @@ WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
 WebUI.verifyElementPresent(findTestObject('LivingTree/MyProfile/DropDownOption'), 0)
 
-WebUI.click(findTestObject('LivingTree/MyProfile/DropDown'))
+WebUI.click(findTestObject('EdlioProduction/MyProfileLink/MyProfileDropDown'))
 
 WebUI.verifyElementPresent(findTestObject('LivingTree/MyProfile/ManageDataButton'), 0)
 
@@ -31,11 +31,9 @@ WebUI.verifyElementPresent(findTestObject('LivingTree/MyProfile/LogoutButton'), 
 
 WebUI.verifyElementPresent(findTestObject('LivingTree/MyProfile/HelpButton'), 0)
 
-WebUI.verifyElementPresent(findTestObject('LivingTree/MyProfile/SupportButton'), 0)
+WebUI.verifyElementPresent(findTestObject('EdlioProduction/MyProfileLink/SupportButton'), 0)
 
 WebUI.verifyElementPresent(findTestObject('LivingTree/MyProfile/ActivationButton'), 0)
-
-WebUI.verifyElementPresent(findTestObject('LivingTree/MyProfile/MyProfileDropDown'), 0)
 
 WebUI.closeBrowser()
 

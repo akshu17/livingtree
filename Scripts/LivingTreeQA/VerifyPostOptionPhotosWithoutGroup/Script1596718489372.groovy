@@ -27,7 +27,7 @@ WebUI.click(findTestObject('LivingTree/ConversationPage/ShareMessageInputBox'))
 
 WebUI.click(findTestObject('LivingTree/SchedulePost/SavePostButton'))
 
-WebUI.waitForElementPresent(findTestObject('LivingTree/CreatePostPage/PleaseSelectAtLeastOneGroupToShareThisWith'), 0)
+WebUI.waitForElementPresent(findTestObject('LivingTree/CreatePostPage/PleaseSelectAtLeastOneGroupToShareThisWith'), 2)
 
 WebUI.click(findTestObject('LivingTree/ConversationPage/CreatePostCloseButton'))
 

@@ -160,7 +160,7 @@ WebUI.click(findTestObject('LivingTree/ConversationPageLink/AddFamilyButtonClose
 
 WebUI.click(findTestObject('LivingTree/MyNetworkPage/AddGroupButton'))
 
-WebUI.click(findTestObject('LivingTreeProduction/ConversationPage/Page_LivingTree David Samson/GroupCloseButton'))
+WebUI.click(findTestObject('LivingTreeProduction/ConversationPage/GroupCloseButton'))
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

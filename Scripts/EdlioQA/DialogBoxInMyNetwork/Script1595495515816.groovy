@@ -29,17 +29,15 @@ WebUI.verifyElementPresent(findTestObject('Edlio/CreateNewLayer/BasavaSchool'), 
 
 WebUI.click(findTestObject('Edlio/CreateNewLayer/BasavaSchool'))
 
-WebUI.delay(5)
-
-WebUI.waitForElementVisible(findTestObject('Edlio/DialogBox/DialogBoxEditButton'), 2)
+WebUI.waitForElementVisible(findTestObject('Edlio/DialogBox/span_Add Others_glyphicon glyphicon-pencil'), 2)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('LivingTree/NetworkPageDailogBox/DailogBoxEditPencilLTQA'))
+WebUI.click(findTestObject('Edlio/DialogBox/span_Add Others_glyphicon glyphicon-pencil'))
 
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Edlio/DialogBox/DialogBoxPrinci'), 2)
+WebUI.waitForElementPresent(findTestObject('LivingTree/NetworkPageDailogBox/DialogBox'), 2)
 
 WebUI.closeBrowser()
 

@@ -33,7 +33,7 @@ WebUI.click(findTestObject('LivingTree/SearchBox/SearchIcon'))
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPage/ConversationUiEventTitle'), 2)
 
-WebUI.click(findTestObject('LivingTree/Calendar/RSVPRequiredButton'))
+WebUI.click(findTestObject('Edlio/Calendar/a_RSVP Required'))
 
 WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/UIEventPostBox'), 10)
 
@@ -63,13 +63,11 @@ WebUI.click(findTestObject('LivingTree/SearchBox/SearchIcon'))
 
 WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/StudentUIEventCheck'), 1)
 
+WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/SeeOriginal'), 1)
+
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_LivingTree stua mailinator/StudentRSVPRequiredButton'))
-
 WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/UIEventDetailPage'), 0)
-
-WebUI.click(findTestObject('LivingTree/Calendar/ButtonYes'))
 
 WebUI.closeBrowser()
 

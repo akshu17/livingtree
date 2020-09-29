@@ -27,11 +27,7 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('LivingTree/ConversationPage/ConversationPageInputSearch'), 'test')
 
-WebUI.delay(1)
-
-WebUI.mouseOver(findTestObject('Page_Edlio Engage teacher tbasava/SearchIcon'))
-
-WebUI.click(findTestObject('Page_Edlio Engage teacher tbasava/SearchIcon'))
+WebUI.click(findTestObject('Edlio/ConversationPage/SearchIcon'))
 
 WebUI.waitForElementVisible(findTestObject('Edlio/CreatePostPage/EdlioGifLoader'), 0)
 

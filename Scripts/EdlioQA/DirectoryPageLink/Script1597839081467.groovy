@@ -23,18 +23,9 @@ WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
 
 WebUI.click(findTestObject('LivingTree/ConversationPageLink/DirectoryIcon'))
 
-WebUI.waitForElementPresent(findTestObject('LivingTree/GivePageLink/Page_LivingTree  stua mailinator/button_Logouts_search'), 
-    0)
+WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('LivingTree/GivePageLink/Page_LivingTree  stua mailinator/Family3Box'), 0)
-
-WebUI.waitForElementPresent(findTestObject('LivingTree/GivePageLink/Page_LivingTree  stua mailinator/FamilyBox'), 0)
-
-WebUI.waitForElementPresent(findTestObject('LivingTree/GivePageLink/Page_LivingTree  stua mailinator/Family2Box'), 0)
-
-WebUI.waitForElementPresent(findTestObject('LivingTree/GivePageLink/Page_LivingTree  stua mailinator/ORGANIZATIONS'), 0)
-
-WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/Intercom'), 0)
+WebUI.waitForElementPresent(findTestObject('Edlio/ConversationPage/DirectoryPage'), 1)
 
 WebUI.closeBrowser()
 

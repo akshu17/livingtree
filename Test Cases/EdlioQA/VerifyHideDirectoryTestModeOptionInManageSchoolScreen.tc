@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyHideDirectoryTestModeOptionInManageSchoolScreen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8deac643-5b8b-43a5-842c-e6b95c7db0de</testCaseGuid>
+</TestCaseEntity>

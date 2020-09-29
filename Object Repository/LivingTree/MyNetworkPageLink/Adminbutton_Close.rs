@@ -6,15 +6,15 @@
    <elementGuidId>21b98de2-862a-403d-8ff6-32702ee7a4b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[17]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;invite-livingtree-popup&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@id=&quot;mlt-flow-panel&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close close_btn&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='invite-livingtree-popup']//button[@class='close close_btn'][contains(text(),'×')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

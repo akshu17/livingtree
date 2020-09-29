@@ -63,13 +63,13 @@ WebUI.click(findTestObject('LivingTree/SearchBox/SearchIcon'))
 
 WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/StudentUIEventCheck'), 1)
 
-WebUI.delay(1)
+WebUI.waitForElementPresent(findTestObject('LivingTree/Calendar/SeeOriginal'), 0)
 
-WebUI.click(findTestObject('Page_LivingTree stua mailinator/StudentRSVPRequiredButton'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('LivingTree/Calendar/a_RSVP Required'))
 
 WebUI.waitForElementVisible(findTestObject('LivingTree/Calendar/UIEventDetailPage'), 0)
-
-WebUI.click(findTestObject('LivingTree/Calendar/ButtonYes'))
 
 WebUI.closeBrowser()
 

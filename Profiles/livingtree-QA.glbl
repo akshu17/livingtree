@@ -64,4 +64,9 @@
       <initValue>'katherine.thomashel@nn.k12.va.us'</initValue>
       <name>ADD_BANNER_ID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'studentsbr@mailinator.com'</initValue>
+      <name>EMIL_STUDENTSBR</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

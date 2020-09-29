@@ -6,11 +6,15 @@
    <elementGuidId>d5c22894-275c-49af-9567-5126e8f89b32</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;page-content-wrapper&quot;)/div[@class=&quot;elgg-sidebar hidden-xs hidden-sm hidden-sm&quot;]/a[3]/div[@class=&quot;emergency-default-msg-div&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='page-content-wrapper']/div[2]/a[3]/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,18 +31,18 @@
       <value>emergency-default-msg-div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Configure Default Message</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-content-wrapper&quot;)/div[@class=&quot;elgg-sidebar hidden-xs hidden-sm hidden-sm&quot;]/a[3]/div[@class=&quot;emergency-default-msg-div&quot;]</value>
+      <value>/html//div[@id='page-content-wrapper']//div[@class='emergency-default-msg-div']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

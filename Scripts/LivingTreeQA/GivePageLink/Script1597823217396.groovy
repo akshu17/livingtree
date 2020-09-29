@@ -39,46 +39,15 @@ WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/Inte
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/RightSideIcon'), 0)
 
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/WhatsNewBox'))
-
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_LivingTree teacher taa/a_Add Adult'))
-
-WebUI.waitForElementVisible(findTestObject('Page_LivingTree teacher taa/AddAdultPage'), 2)
-
-WebUI.click(findTestObject('Page_LivingTree teacher taa/button_Closefamily'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_LivingTree teacher taa/span_Add Member'))
-
-WebUI.waitForElementPresent(findTestObject('LivingTree/CalendarLink/RymsGroupBox'), 0)
-
-WebUI.click(findTestObject('LivingTree/CalendarLink/InviteParent(s)usinggroupcode'))
-
-WebUI.waitForElementPresent(findTestObject('Page_LivingTree teacher taa/GroupCodeBox'), 1)
-
-WebUI.scrollToElement(findTestObject('Page_LivingTree teacher taa/span_Close'), 1)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/ConversationDropDownOne'))
-
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/ConversationDropDownTwo'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/ConversationTodayBox'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('LivingTree/ConversationPageLink/TodayConversationBox'), 0)
 
 WebUI.waitForElementVisible(findTestObject('Edlio/ConversationPage/SocialMediaLinkAppStore'), 0)
 
 WebUI.waitForElementVisible(findTestObject('Edlio/ConversationPage/SocialMediaLinkPlayStore'), 0)
 
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/a_Add Child'))
-
 WebUI.waitForPageLoad(6)
-
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/AddChildButtonClose'))
 
 WebUI.closeBrowser()
 

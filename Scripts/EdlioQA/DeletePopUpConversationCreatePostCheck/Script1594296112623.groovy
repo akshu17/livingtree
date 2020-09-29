@@ -27,7 +27,7 @@ WebUI.waitForElementPresent(findTestObject('LivingTree/DeletePopUpCheck/DeleteCa
 
 WebUI.click(findTestObject('LivingTree/DeletePopUpCheck/DeleteCancelButton'))
 
-WebUI.scrollToPosition(0, 0)
+WebUI.delay(7)
 
 WebUI.click(findTestObject('LivingTree/ConversationPage/ShareMessageInputBox'))
 

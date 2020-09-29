@@ -6,6 +6,10 @@
    <elementGuidId>9e435b92-9d88-4ea3-90b2-f21c43a5bcf6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Close ×' or . = 'Close ×')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[3]</value>
       </entry>

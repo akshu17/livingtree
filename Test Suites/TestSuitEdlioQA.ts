@@ -11,183 +11,207 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>3f5e6bcb-b479-4484-940e-48ed32a74c0c</testSuiteGuid>
    <testCaseLink>
-      <guid>2dae2a16-eef8-45e1-86a4-c2d02337b684</guid>
+      <guid>528c05c4-125c-4276-8568-df7e80f2bddb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/AddLinkDetailInCalendar</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>117bc5a8-62e2-43eb-8529-0e44f676f0fd</guid>
+      <guid>7376883f-ae85-48fe-becd-a9cd71233253</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/BrandParameterOtherThanLivingTreeEdlio</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e38f102c-76b7-4f65-ad04-c6108f0f5049</guid>
+      <guid>8129cd4f-3d31-4af2-b8f1-2cf38e8ce4cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/ChangePhotoUploadSpinner</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a7acd0c9-288d-4199-bd76-00211de4ca0a</guid>
+      <guid>351d2723-e6a5-41ad-ae30-cc020656c393</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/ConversationPageCheckForUser</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>46b4cdf0-d245-4d04-bc3a-f558cf222f8d</guid>
+      <guid>0237f674-dfae-42bf-8513-6e33c040408e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/DeletePopUpConversationCreatePostCheck</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7568be91-c672-45ef-8786-ea09d73c9626</guid>
+      <guid>14fb0f82-1b07-43a2-a036-a1231da434dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/DeletePopUpConversationWidgetCheck</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>26042374-702a-45a1-8bdb-2747937ada04</guid>
+      <guid>c4becc61-cfad-4705-bd61-a406e78f0a9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/DeletePopUpPost</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>69a00e68-b73a-4102-9cb6-cc84312a44c1</guid>
+      <guid>6ce7037d-e142-48eb-90e7-1b84adc12030</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/DialogBoxInMyNetwork</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9b1e5079-3dcf-43e1-812f-a311723e851c</guid>
+      <guid>3e59992a-0882-41a8-995e-095e72ceea5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/DistrictAdminNetworkPageCheck</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1638337a-d893-4766-8f62-af625a212bff</guid>
+      <guid>94b73977-85b1-4ba1-b142-28b209a195e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/EdlioGifLoader</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2e784c91-5bef-43eb-be19-7c4eb8ca6205</guid>
+      <guid>8bd3e534-39b0-4bb8-a1ea-ed603aef0244</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/ForgotPasswordCheck</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c509a212-5987-4007-8de0-f6dd3b4f1937</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/LoadingIconUploadFiles</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5f0998ee-1ad4-4eb8-a158-0b07947654c2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/MyNetworkLoaderIconTest</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>473433b5-3abb-4eeb-b97a-e0f81aeed805</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/MyNetworkPageAddToLayerCheck</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fce40ad5-72de-4ef2-a264-f1d467711b5f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/PopUpWindowConversationcreatePostCheck</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8e9ac29c-f5be-40de-b9be-56317ba3e0c4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/PopWindowConversationWidgetCheck</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4fb06d72-2aa4-487f-8597-332599e09c4c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/SendUrgentAlert</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5e903ba9-e3f0-483d-9de1-eb6cd3190abe</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/VerifyLoaderIconInSignUpPage</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>99c9df6a-807a-4a16-9222-6c17ff30b449</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/VerifyMoreLink</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>14b1d532-6075-46b2-b489-3b2a24ad2935</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/VerifySocialMediaLink</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>abf696ab-143b-48ba-938b-c03a96bf234f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/VideoAfterAddAndRemove</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d3746978-9a3a-4607-a55f-bc8d6d3e1019</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/WidgetCheckDistrictUser</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>fdc1b1a0-d288-4b10-a8a5-3cf983a85cca</guid>
+      <guid>ff56c21a-e1ef-46e6-9167-91da2bb7c86f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/InboxStructureCheck</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c6e4c85b-2be9-4b4e-ae00-8b562bced388</guid>
+      <guid>a02460b6-b80d-48b5-9754-c44d9398b1ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/LoadingIconUploadFiles</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>872893de-dee7-48b4-b2b4-56bb5bf25406</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/MyNetworkLoaderIconTest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ee2b774-8115-467c-9db2-11d1d562940d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/MyNetworkPageAddToLayerCheck</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>99ba9370-be8d-44b8-ba3a-ccdb5035453b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/NewMenuStyle</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>30d0a9a8-fa87-42a6-89fe-27e7e4977d84</guid>
+      <guid>c49494fc-f5c7-4667-8eff-c1bef165157a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/NonadminUserShouldNotAllowedToCreateScheduledPost</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0c4b68a6-0ee0-4ad6-b582-4c74b0a2a396</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/PopUpWindowConversationcreatePostCheck</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>80867edb-e7a6-41a6-8e81-daadb310e1f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/PopWindowConversationWidgetCheck</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f5befd78-0229-407e-8768-2474e2d21c13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/SchedulePostMouseOver</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>22b5dc5b-16f0-420b-ac91-3a095324c56a</guid>
+      <guid>deb661b8-2d9a-4f49-813b-c3d348764cde</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/SearchString</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3f187d50-e3ac-4f4f-8e62-3d2a0edef98f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/SendUrgentAlert</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a38a1e5c-e42e-420e-85db-fc4d51c8491e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/VerifyBanner</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fab5dbdb-8b2c-4319-8db9-8d1bae305915</guid>
+      <guid>0d499973-b6e3-4eac-9a96-d269441627f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/VerifyComposeMessageAfterDelete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>733bdb0d-afd8-4e96-b2f8-dc5b6d8d22ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/VerifyForgotPasswoedIsCenter</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>844fd991-da05-4b82-991f-1ca5ebebc689</guid>
+      <guid>6aa8125b-0270-4083-98a5-815184627e6d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/VerifyLoaderIconInSignUpPage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c646dcc-d405-41fb-9ab6-48f994c4bd03</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/VerifyMobilePushAlertsfrompreferencespage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>75bed691-ef28-4d80-aaba-e30473876b88</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/VerifyMoreLink</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fcd3cf46-0d51-495c-96fa-db5074e2b2f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/VerifyPostOptionPhotosWithoutGroup</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c9ac73bf-585e-414d-a579-9d5e56f2767d</guid>
+      <guid>f5f8075d-c8fa-492c-bafd-67fce1311f51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/EdlioQA/VerifySearchLeafButtonAfterCompletionOfSearch</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>afa48920-51af-4716-8932-e1e1234abe84</guid>
+      <guid>bbab45a3-9126-477c-92f0-3abc745f032b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EdlioQA/CalenderStyleChecks</testCaseId>
+      <testCaseId>Test Cases/EdlioQA/VerifySocialMediaLink</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>48d57585-238a-4281-99b3-0f64aefbcb69</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/VerifyUIfieldReminders</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4c37ab3-10b9-4150-9572-db73d9584f0e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/VideoAfterAddAndRemove</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>46e8f951-2163-49b0-9a83-5aef984573c3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/EdlioQA/WidgetCheckDistrictUser</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

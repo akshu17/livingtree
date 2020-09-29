@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('https://maple.livingtree.com/login?brand=edlioedfghj')
 
-WebUI.click(findTestObject('Edlio/ForgotPassword/ForgotPasswordCheckBox'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementPresent(findTestObject('Edlio/ForgotPassword/EdlioLogo'), 2)
 

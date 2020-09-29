@@ -29,7 +29,7 @@ WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/Conv
 
 WebUI.click(findTestObject('LivingTree/ConversationPage/ConversationIconCoversationPage'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPage/CalendarIconConversationPage'), 0)
 
@@ -61,19 +61,27 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('LivingTree/ConversationPage/ConversationIconCoversationPage'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/ShowAllTypeButton'), 2)
 
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/label_Users'))
+WebUI.click(findTestObject('Edlio/ConversationPage/label_Users'))
 
-WebUI.waitForPageLoad(4)
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/button_Close1'))
+WebUI.openBrowser(GlobalVariable.URL)
+
+WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPageEmailAdressTextBox'), GlobalVariable.EMAIL_TEACHER)
+
+WebUI.setText(findTestObject('LivingTree/LoginPage/LoginPagePasswordTextBox'), GlobalVariable.PASSWORD)
+
+WebUI.click(findTestObject('LivingTree/LoginPage/LoginPageLoginButton'))
+
+WebUI.click(findTestObject('LivingTree/ConversationPage/ConversationIconCoversationPage'))
 
 WebUI.click(findTestObject('LivingTree/ConversationPageLink/LabelAll'))
 
-WebUI.waitForPageLoad(4)
+WebUI.waitForPageLoad(2)
 
 WebUI.click(findTestObject('LivingTree/ConversationPageLink/LabelPinned'))
 
@@ -110,10 +118,6 @@ WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/Righ
 WebUI.click(findTestObject('Edlio/ConversationPage/widget'))
 
 WebUI.delay(2)
-
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/ConversationDropDownOne'))
-
-WebUI.click(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/ConversationDropDownTwo'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/ConversationPageLink/Page_LivingTree teacher taa/ConversationTodayBox'), 
     0)

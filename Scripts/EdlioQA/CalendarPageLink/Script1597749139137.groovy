@@ -61,23 +61,21 @@ WebUI.click(findTestObject('Edlio/CalendarLink/a_Add Member'))
 
 WebUI.waitForElementPresent(findTestObject('Edlio/CalendarLink/InvitePopUpBox'), 1)
 
-WebUI.click(findTestObject('Edlio/CalendarLink/Page_Edlio Engage teacher tbasava/a_Invite Parent(s) via e-mail'))
+WebUI.click(findTestObject('Edlio/CalendarLink/Invite Parent(s) via e-mail -'))
 
-WebUI.waitForElementPresent(findTestObject('EdlioProduction/CalendarLink/PopUpBox'), 
-    0)
+WebUI.waitForElementPresent(findTestObject('EdlioProduction/CalendarLink/PopUpBox'), 0)
 
-WebUI.click(findTestObject('Edlio/CalendarLink/Page_Edlio Engage teacher tbasava/button_Cancel'))
+WebUI.click(findTestObject('Edlio/CalendarLink/button_Close -'))
 
 WebUI.click(findTestObject('Edlio/CalendarLink/a_Add Member'))
 
 WebUI.waitForElementPresent(findTestObject('Edlio/CalendarLink/InvitePopUpBox'), 1)
 
-WebUI.click(findTestObject('Edlio/CalendarLink/Page_Edlio Engage teacher tbasava/a_Invite Student(s) via e-mail'))
+WebUI.click(findTestObject('Edlio/CalendarLink/Invite Student(s) via e-mail -'))
 
-WebUI.waitForElementNotPresent(findTestObject('Edlio/CalendarLink/Page_Edlio Engage teacher tbasava/InviteStudentBox'), 
-    0)
+WebUI.waitForElementNotPresent(findTestObject('Edlio/CalendarLink/button_Close -'), 1)
 
-WebUI.click(findTestObject('Edlio/CalendarLink/Page_Edlio Engage teacher tbasava/button_Close'))
+WebUI.click(findTestObject('Edlio/CalendarLink/StudentButtonClose1'))
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

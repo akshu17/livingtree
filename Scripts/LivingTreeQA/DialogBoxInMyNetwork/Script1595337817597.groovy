@@ -27,9 +27,9 @@ WebUI.verifyElementPresent(findTestObject('LivingTree/MyNetworkPage/aaschool'), 
 
 WebUI.delay(1)
 
-WebUI.mouseOver(findTestObject('Page_LivingTree aaschool/DialogBoxEditButton'))
+WebUI.mouseOver(findTestObject('Page_LivingTree aaschool/span_Add Others_glyphicon glyphicon-pencil'))
 
-WebUI.click(findTestObject('Page_LivingTree aaschool/DialogBoxEditButton'))
+WebUI.click(findTestObject('Page_LivingTree aaschool/span_Add Others_glyphicon glyphicon-pencil'))
 
 WebUI.waitForElementPresent(findTestObject('LivingTree/NetworkPageDailogBox/DialogBox'), 1)
 

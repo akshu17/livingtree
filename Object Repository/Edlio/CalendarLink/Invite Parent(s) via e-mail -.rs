@@ -6,11 +6,15 @@
    <elementGuidId>841832a7-51ac-439f-b09d-073563f9d90f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html/body//a[.='Invite Parent(s) via e-mail']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@onclick=&quot;elgg.groups.group_send_invite('28575262', function() { $('.invite-block').closest('.tipsy').remove();elgg.groups.show_invite_popup('member_28575262_1294482218','Walk as a Parent', 'yes') })&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,18 +38,18 @@
       <value>elgg.groups.group_send_invite('28575262', function() { $('.invite-block').closest('.tipsy').remove();elgg.groups.show_invite_popup('member_28575262_1294482218','Walk as a Parent', 'yes') })</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Invite Parent(s) via e-mail</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;tipsy tipsy-n&quot;]/div[@class=&quot;tipsy-inner&quot;]/div[@class=&quot;invite-block&quot;]/a[@class=&quot;invite-link default_invite_28575262&quot;]</value>
+      <value>/html/body//a[.='Invite Parent(s) via e-mail']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

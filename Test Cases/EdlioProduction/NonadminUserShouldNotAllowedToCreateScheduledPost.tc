@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NonadminUserShouldNotAllowedToCreateScheduledPost</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4923e6b-3a2d-41a1-905a-31fb1752182e</testCaseGuid>
+</TestCaseEntity>
